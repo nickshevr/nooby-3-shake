@@ -1,0 +1,38 @@
+{
+  "name": "nooby-3-shake",
+  "version": "0.0.1",
+  "description": "Simple webpack 4 treeshake test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickshevr/nooby-3-shake.git"
+  },
+  "keywords": [
+    "lodash",
+    "treeshake",
+    "webpack"
+  ],
+  "author": "nickshevr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickshevr/nooby-3-shake/issues"
+  },
+  "homepage": "https://github.com/nickshevr/nooby-3-shake#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.29.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "lodash-webpack-plugin": "^0.11.5",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.2.1"
+  }
+}
